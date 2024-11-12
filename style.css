@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: url(/bg2.jpg);
+    background-size: cover; 
+    backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+    border-radius: 12px;
+    padding: 50px 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.545);
+}
+h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+label{
+    font-size: 20px;
+    padding: 5px 0px;
+}
+#pass{
+    width: 230px;
+    padding: 5px 4px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid gray;
+    color: green;
+    font-size: 18px;
+}
+
+#pass:focus{
+    outline: 0;
+    border: 2px solid green;
+}
+
+button{
+    padding: 8px 12px;
+    background-color: rgb(86, 86, 244);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin: 20px 0px;
+    font-size: 14px;
+}
+span{
+    padding: 10px 0px;
+    font-size: 18px;
+    text-align: start;
+}
+#err{
+    color:  red;
+    margin: 5px 0px;
+}
+#stat,#score{
+    font-size: 18px;
+    padding: 4px 0px;
+}
